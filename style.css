@@ -1,0 +1,79 @@
+body{
+    margin: 0;
+    font-family:'Courier New', Courier, monospace;
+}
+
+.main-container {
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+  }
+
+.operations {
+    background-color: bisque;
+    width: 450px;
+    padding: 60px 20px;
+    border-radius: 10px;
+    box-shadow: 0px 6px 10px 5px #7d7d7d5c;
+  }
+
+span#dynamic-operators {
+    font-size: 20px;
+    width: 25px;
+    display: inline-block;
+    text-align: center;
+  }
+
+.form{
+    margin-bottom: 10px;
+}
+
+.form input{
+    background: transparent;
+    border: 1px solid #6c6c6c;
+    padding: 10px 10px;
+}
+
+.calculation-buttons {
+    margin-bottom: 10px;
+}
+
+.operation-buttons{
+    background-color: transparent;
+    border: 1px solid #6c6c6c;
+    border-radius: 200px;
+    font-size: 25px;
+    min-height: 25px;
+    min-width: 33px;
+    cursor: pointer;
+    transition: .4s;
+    margin: 0 2px;
+}
+
+.operation-buttons:hover{
+    box-shadow: 0px 2px 4px #00000066;
+    transform: translate(0, -2px);
+}
+
+.result-section {
+    display: flex;
+    justify-content: space-between;
+    width: 94.5%;
+    align-items: center;
+  }
+
+.result-section button{
+    background-color: transparent;
+    border: 1px solid black;
+    color: black;
+    font-size: 18px;
+    padding: 10px 20px;
+    cursor: pointer;
+    transition: .3s;
+}
+
+.result-section button:hover{
+    background-color: black;
+    color: white;
+}
